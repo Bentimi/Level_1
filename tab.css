@@ -1,0 +1,15 @@
+@media (min-width: 400px) and (max-width: 1400px){
+    #sign-in{
+        margin-top: 0.5rem;
+    }
+    #nav{
+        margin-top: -3rem;
+    }
+    #nav2{
+        margin-top: -3rem;
+    }
+    #see{
+        margin-top: -1rem;
+        margin-left: 2.3rem;
+    }
+}

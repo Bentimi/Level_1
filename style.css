@@ -1,0 +1,150 @@
+body{
+    font-family: "Sans-serif, Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Gill Sans MT", Calibri, "Trebuchet MS", "Arial Narrow", Arial, sans-serif, Courier, monospace;
+}
+.nav{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, "Arial Narrow", Arial, sans-serif, Courier, monospace;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+}
+#two{
+    /* background-color: rgb(246, 234, 213); */
+    background: #ece8d9;
+    z-index: 99; 
+    top: 0;
+}
+#second{
+    /* background-color: rgb(246, 234, 213); */
+    background: #ece8d9;
+    
+}
+#title {
+    /* font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    opacity: 0.89;
+}
+form{
+    height: 6rem;
+    width: 20rem;
+}
+input{
+    width: 15rem;
+}
+#search{
+    margin: auto;
+}
+/* #img{
+    margin-right: 10em !important;
+    top: -30px !important;
+} */
+/* #inner{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-columns: repeat(2);
+}
+#img{
+    background-image: url('hand.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#card-image{
+    height: 10rem;
+    width: 22em;
+    margin-left: -0.8rem;
+}
+#main-card:hover{
+    width: 20rem;
+}
+#card-image:hover{
+    width: 22.1em;
+    /* height: 11rem; */
+}
+#a{
+    text-decoration: none;  
+    color: rgb(0, 145, 255);
+}
+
+@media (max-width: 700px){
+    /* body{
+        overflow-x: hidden;
+    } */
+    #sign-in{
+        margin-top: -2.5rem;
+    }
+    #see{
+        margin-top: -1rem;
+        margin-left: 2.3rem;
+    }
+    #main-card{
+        min-width: 18rem;
+        
+    }
+    #cards{
+        justify-content: center;
+    }
+    #card-image{
+        min-width: 5rem;
+    }
+    #form{
+        width: 18rem;
+        justify-content: start;
+        padding: 0.1rem;
+    }
+    input{
+        width: 12rem;
+    }
+    /* #img{
+        min-width: 8rem;
+        margin-right: 2rem;
+    } */
+    #sub{
+        font-size: small;
+    }
+    #see{
+        margin-top: -2rem;
+    }
+    #cards{
+        justify-content: center;
+    }
+    #logo{
+        width: 16rem;
+    }
+    #about{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #count{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #count2{
+        /* justify-content: start; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #count3{
+        min-width: 18rem;
+    }
+    #notice{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #heading{
+        text-align: center;
+    }
+    #links{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
